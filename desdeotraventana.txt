@@ -1,0 +1,24 @@
+aca estoy en mi otra carpeta:
+1. primero hago una copia del proyecto
+
+git clone url-del-proyecto
+
+luego descargar
+hacer un pull de la rama develop
+
+git pull origin develop
+
+luego fijarse que estas en la rama develop y NO en la rama master
+!NO TRABAJAR EN LA RAMA MASTER!
+ se subuiran los arhivos a master cuando todo funcione en la rama develop
+ NUNCA se toca la RAMA MASTER o MAIN
+
+ con este comando veras en que rama estas
+
+ git branch
+
+ - como cambiar de rama 
+ git checkout nombre-de-la-rama-a-la-que-se-desea-cambiar
+ o
+
+ git switch nombre-de-la-rama-a-la-que-se-desea-cambiar
